@@ -1,1 +1,10 @@
 theme: jekyll-theme-cayman
+# Site settings
+title: 玖
+SEOTitle: liaoyj的博客 | liaoyj Blog
+header-img: img/home-bg.jpg
+email: 892471693@qq.com
+description: "健康生活，无限活力"
+keyword: "liaoyj,jiu"
+url: "https://pwoodong.github.io/liaoyj.github.io/"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
