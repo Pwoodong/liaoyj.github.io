@@ -1,9 +1,9 @@
-[Hux Blog](https://huangxuan.me)
+[Jiu Blog](https://pwoodong.github.io/liaoyj.github.io/)
 ================================
 
 > I never expected this becomes popular.
 
-![](http://huangxuan.me/img/blog-desktop.jpg)
+![](https://pwoodong.github.io/liaoyj.github.io/img/blog-desktop.jpg)
 
 
 [User Manual 👉](_doc/Manual.md)
