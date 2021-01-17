@@ -1,1 +1,1 @@
-> Your time is limited, so don’t waste it living someone else’s life. 
+> The day arch one death, All efforts are not made for nothing. 
