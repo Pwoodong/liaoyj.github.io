@@ -1,1 +1,1 @@
-> The day arch one death, All efforts are not made for nothing. 
+> Arch a pawn, Work don not to donate. 
