@@ -1,10 +1,10 @@
 # Site settings
-title: Jiu Blog
-SEOTitle: Liaoyj的博客 | Jiu Blog
+title: Liaoyj Blog
+SEOTitle: Liaoyj的博客 | Liaoyj Blog
 header-img: ./img/home-bg.jpg
 email: 892471693@qq.com
-description: "这里是 Jiu 的个人博客，记录、学习、成长。"
-keyword: "liaoyj, Jiu, Jiu Blog, 博客, 个人网站, 互联网, Java, 后端"
+description: "这里是 Liaoyj 的个人博客，记录、学习、成长。"
+keyword: "liaoyj, Liaoyj Blog, 博客, 个人网站, 互联网, Java, 后端"
 url: "https://pwoodong.github.io/liaoyj.github.io/"              # your host, for absolute URL
 baseurl: "/liaoyj.github.io"                             # for example, '/blog' if your blog hosted on 'host/blog'
 
