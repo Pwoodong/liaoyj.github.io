@@ -1,37 +1,19 @@
-## 基于postProcessAfterInitialization实现启动项目使用nacos配置中心文件
-
+## 基于postProcessAfterInitialization实现项目启动更新配置中心文件内容
 ### 环境准备
-
 #### 	Nacos安装
-
 ​			下载地址：https://github.com/alibaba/nacos/releases
-
-​			 安装步骤可参考官方文档
-
+​			安装步骤可参考官方文档
 #### 	本地项目
-
 ​			可参考项目：https://github.com/Pwoodong/pbhealth
-
 ### 需求
-
 ​	项目启动使用配置中心的文件
-
 ### 实现思路
-
 ​	使用Spring AOP的后置处理器postProcessAfterInitialization实现配置文件的更改
-
 #### 	逻辑步骤：
-
 ​		1、从nacos配置中心拉取配置
-
 ​		2、解析配置内容
-
 ​		3、将解析的内容对应相关的配置类并设置配置文件里的值
-
 ### 核心代码
-
-​		
-
 ```
 package com.pbh.collect.config;
 
@@ -538,10 +520,8 @@ public class CustomHandleConfig implements BeanPostProcessor {
 
 }
 ```
-
 ### 不足之处
-
-​		此方法需要先连接nacos,需要在本地项目的bootstrap.yml文件中配置好nacos连接，如果需要nacos配置中心文件进行配置，将不会有效。
+​		此方法需要先连接nacos配置中心；并且在本地项目的bootstrap.yml文件中先配置好nacos的连接，如果需要从配置中心配置nacos连接，拉取到的配置中心内容会一直为空。
 
 
 
